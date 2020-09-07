@@ -55,7 +55,7 @@ h1 {
   font-size: 150%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 951px) {
   
   *{
     margin: 20px;
@@ -67,7 +67,7 @@ h1 {
   
 }
 
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 0px) and (max-width: 950px) {
   
   *{
     margin: 20px;
