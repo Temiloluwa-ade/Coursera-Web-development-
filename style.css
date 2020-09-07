@@ -1,0 +1,57 @@
+body{
+  background-color: whitesmoke;
+  margin: 20px;
+  display: inline;
+}
+
+p{
+  overflow: inherit;
+}
+div{
+  font-size: 150%;
+}
+
+.large {
+  background-color: grey;
+}
+
+.name {
+  width: 30%;
+  background-color: darkred;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150%;
+}
+
+@media (min-width: 1200px) {
+  
+  *{
+    margin: 20px;
+  }
+  
+  .large {
+    width: 33.33%;
+  }
+  
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+  
+  *{
+    margin: 20px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .medium1 {
+    width: 50%;
+  }
+  
+  .medium2 {
+    width: 100%;
+  }
+}
