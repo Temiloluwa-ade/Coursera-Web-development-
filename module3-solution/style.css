@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lora', serif;
+}
+.navbar {
+    background-color: grey;
+}
+.navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item a {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    text-align: center;
+    padding: 0.8rem;
+}
+.container h1 {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.container .row .col-sm-12{
+    margin-bottom: 2rem;
+}
+.container .row .col-sm-12 .box {
+    background-color: grey;
+    padding: 5px 10px 20px 10px;
+    font-size: 16px;
+    border: 2px solid #000;
+}
+.menu {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+p a {
+    color: rgb(8, 62, 241);
+}
+
+p a:hover {
+    text-decoration: none;
+    color: rgb(29, 2, 73);
+}
